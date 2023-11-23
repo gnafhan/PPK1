@@ -1,0 +1,7 @@
+def FPB(x,y):
+    if y == 0:
+        return x
+    return FPB(y,x%y)
+
+print(FPB(int(input("Masukkan bilangan pertama: ")),int(input("Masukkan bilangan kedua: "))))
+

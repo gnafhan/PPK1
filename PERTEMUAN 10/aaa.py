@@ -1,0 +1,1 @@
+print("inikanapa"[:-1][::-1])
